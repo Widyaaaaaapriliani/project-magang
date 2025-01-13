@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Carousel</title>
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Link Google Font -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+
+    <!-- Link SwiperJS CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+</head>
+<body>
+    <div class="container swiper">
+        <div class="card-wrapper">
+            <ul class="card-list swiper-wrapper">
+                <li class="card-item swiper-slide">
+                    <a href="#" class="card-link">
+                        <img src="images/DanauBiru.png" alt="Card Image" class="card-image">
+                        <p class="badge DanauBiru">Danau Biru</p>
+                        <h2 class="card-title">Danau Biru di Wawo</h2>
+                        <button class="card-button  material-symbols-outlined">arrow_forward</button>
+                    </a>
+                </li>
+
+                <li class="card-item swiper-slide">
+                    <a href="#" class="card-link">
+                        <img src="images/MasjidAgung.jpeg" alt="Card Image" class="card-image">
+                        <p class="badge MasjidAgung">Masjid Agung</p>
+                        <h2 class="card-title">Masjid Agung By Pass Lasusua</h2>
+                        <button class="card-button  material-symbols-outlined">arrow_forward</button>
+                    </a>
+                </li>
+
+                <li class="card-item swiper-slide">
+                    <a href="#" class="card-link">
+                        <img src="images/PasirPutih.jpg" alt="Card Image" class="card-image">
+                        <p class="badge PasirPutih">Pantai Pasir Putih</p>
+                        <h2 class="card-title">Pasir Putih di Pitulua</h2>
+                        <button class="card-button  material-symbols-outlined">arrow_forward</button>
+                    </a>
+                </li>
+
+                <li class="card-item swiper-slide">
+                    <a href="#" class="card-link">
+                        <img src="images/PulauBintang.jpeg" alt="Card Image" class="card-image">
+                        <p class="badge PulauBintang">Pulau Bintang</p>
+                        <h2 class="card-title">Pulau Bintang Lasusua</h2>
+                        <button class="card-button  material-symbols-outlined">arrow_forward</button>
+                    </a>
+                </li>
+
+                <li class="card-item swiper-slide">
+                    <a href="#" class="card-link">
+                        <img src="images/TamanLiterasi.jpg" alt="Card Image" class="card-image">
+                        <p class="badge TamanLiterasi">Taman Literasi</p>
+                        <h2 class="card-title">Taman Literasi Patowonua</h2>
+                        <button class="card-button  material-symbols-outlined">arrow_forward</button>
+                    </a>
+                </li>
+            </ul>
+
+            <div class="swiper-pagination"></div>
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <script src="script.js"></script>
+</body>
+</html>
